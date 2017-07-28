@@ -152,7 +152,7 @@ apiRoutes.post('/processamento/notas/processa', function(req, res, next) {
         console.log('autorizacao NFPS-e')
         console.log("codigoVerificacao=>" + _codigoVerificacao);
         console.log("identificacao=>" + _identificacao);
-        console.log("dataProcessamento" + _dtProcessamento);
+        console.log("dataProcessamento=>" + _dtProcessamento);
 
         xmlTemp = xmlTemp.replace(/PARAM16/, _codigoVerificacao);
         xmlTemp = xmlTemp.replace(/PARAM3/, _identificacao);
