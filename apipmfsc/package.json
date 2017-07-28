@@ -1,4 +1,27 @@
 {
-	"name": "node-token-jwt",
-	"main": "server.js"
+  "name": "node-token-jwt",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "body-parser": "^1.17.2",
+    "body-parser-xml": "^1.1.0",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "express-xml-bodyparser": "^0.3.0",
+    "js2xmlparser": "^3.0.0",
+    "jsonwebtoken": "^7.4.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.2",
+    "morgan": "^1.8.2",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
